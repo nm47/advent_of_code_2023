@@ -18,7 +18,6 @@ RUN apt update && \
     git \
     neovim
 
-RUN git clone https://github.com/nm47/advent_of_code_2023.git
-
 USER $USERNAME
 
+RUN git clone https://github.com/nm47/advent_of_code_2023.git
